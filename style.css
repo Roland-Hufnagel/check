@@ -39,7 +39,7 @@ h1 {
   background-color: var(--primary-color);
 
   box-shadow:
-    0 0 20px #6b006b,
-    0 0 40px #6bff6b,
-    0 0 60px #6bff6b;
+    0 0 20px var(--primary-color),
+    0 0 40px var(--secondary-color),
+    0 0 60px var(--secondary-color);
 }
