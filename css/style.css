@@ -1,0 +1,45 @@
+/* BASIS ------------------------------------*/
+:root {
+  --primary-color: #6b006b;
+  --secondary-color: #6bff6b;
+
+  --display-font: "Almendra-Regular";
+}
+
+@font-face {
+  font-family: "Almendra-Regular";
+  src: url(../assets/Almendra-Regular.woff) format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  background-color: var(--primary-color);
+}
+
+/* INHALT ------------------------------------*/
+h1 {
+  font-family: var(--display-font);
+  color: var(--secondary-color);
+  text-align: center;
+  font-size: 5em;
+}
+
+.Questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Frage {
+  width: 80%;
+  height: 300px;
+  background-color: var(--primary-color);
+
+  box-shadow:
+    0 0 20px #6b006b,
+    0 0 40px #6bff6b,
+    0 0 60px #6bff6b;
+}
