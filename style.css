@@ -9,7 +9,7 @@
 }
 
 @font-face {
-  font-family: "Almendra-Regular";
+  font-family: "Almendra-Regular", monospace;
   src: url("./assets/fonts/Almendra-Regular.woff") format("woff");
 }
 
